@@ -5,6 +5,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://mariavaldiviezopingo.github.io/WebPersonal/',
+  base: '/WebPersonal/',
   devToolbar: {
     enabled: false
   },
