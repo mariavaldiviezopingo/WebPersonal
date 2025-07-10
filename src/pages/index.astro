@@ -1,0 +1,388 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+---
+
+<Layout title="Website de Luisa Valdiviezo">
+  <div
+    class="cuerpo bg-gradient-to-br from-[#0b1b3b] via-[#0f2454] to-[#172d5e] text-white min-h-screen"
+  >
+    <!-- NAVBAR -->
+    <header
+      class="flex justify-between items-center px-6 py-4 bg-black/30 backdrop-blur-md shadow-lg sticky top-0 z-50"
+    >
+      <div class="text-lg font-semibold text-blue-400">
+        // Luisa Valdiviezo - Innovación con Propósito
+      </div>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#" class="hover:text-blue-400">Inicio</a>
+        <a href="#sobre-mi" class="hover:text-blue-400">Sobre Mi</a>
+        <a href="#mi-experiencia" class="hover:text-blue-400">Experiencia</a>
+        <a href="#habilidades" class="hover:text-blue-400">Habilidades</a>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section
+      class="px-6 py-16 md:py-24 max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12 fade-in"
+    >
+      <!-- Left content -->
+      <div class="md:w-1/2 space-y-6">
+        <h1 class="font-bold leading-tight">
+          <span class="text-blue-500 text-4xl md:text-5xl font-bold mb-4"
+            >Hola,</span
+          >
+          <span class="text-4xl md:text-5xl font-bold mb-4">
+            Soy María Luisa</span
+          ><br />
+          <span class="md:text-2xl"
+            >Transformo ideas en soluciones digitales</span
+          ><br />
+          <span class="text-blue-300 text-3xl">Agiles, Simples y </span>
+          <span class="text-blue- text-4xl">Utiles</span>
+        </h1>
+        <p class="text-gray-300">
+          “Pienso en sistemas. Actúo con empatía. Diseño soluciones que
+          funcionan.”
+        </p>
+        <div class="space-x-4">
+          <a
+            href="https://www.linkedin.com/in/maria-luisa-valdiviezo-pingo"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white transition px-5 py-2 rounded-full"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="md:w-1/2 relative">
+        <div
+          class="absolute -z-10 w-10 h-20 bg-blue-700 rounded-full blur-3xl opacity-20 top-0 left-0"
+        >
+        </div>
+        <img
+          src="./img/fondo2.png"
+          alt="Business Woman"
+          class="rounded-xl shadow-2xl w-full max-w-[300px] h-auto mx-auto transition"
+        />
+      </div>
+    </section>
+
+    <section
+      id="sobre-mi"
+      class="px-2 py-10 max-w-6xl mx-auto pt-32 grid md:grid-cols-2 gap-12 items-center fade-in"
+    >
+      <!-- Imagen a la izquierda -->
+      <div class="flex justify-center">
+        <div class="md:w-1/2 relative">
+          <div
+            class="absolute -z-10 w-20 h-20 bg-blue-700 rounded-full blur-3xl opacity-20 top-0 left-0"
+          >
+          </div>
+          <img
+            src="./img/fondo4.png"
+            alt="Business Woman"
+            class="rounded-xl shadow-2xl max-w-[400px] h-auto mx-auto transition"
+          />
+        </div>
+      </div>
+
+      <!-- Texto a la derecha -->
+      <div class="space-y-6 fade-in">
+        <div>
+          <h2 class="text-3xl font-bold transition">Sobre Mi</h2>
+          <p class="text-lg text-gray-300 mt-2 transition">
+            Soy Bachiller en Ingeniería Informática de la Universidad Nacional
+            de Piura con experiencia en transformación digital, automatización
+            de procesos y gestión ágil. He liderado iniciativas en sectores de
+            salud, comercio e institucionales, aplicando herramientas como Power
+            BI, Canva, Figma, Jira y metodologías ágiles como Scrum y Kanban.
+            Creo en la innovación con propósito: aquella que mejora vidas
+            reales.
+          </p>
+        </div>
+
+        <ul class="text-xl text-gray-300 space-y-2">
+          <li>
+            <span class="font-bold text-white">Nombres:</span> Maria Luisa Valiviezo
+            Pingo
+          </li>
+
+          <li>
+            <span class="font-bold text-white">Localidad:</span> Piura - Perú de
+            Octubre
+          </li>
+          <li>
+            <span class="font-bold text-white">Correo:</span> luisavaldiviezo24@gmail.com
+          </li>
+        </ul>
+
+        <p class="text-yellow-400 font-semibold">
+          Aprendiz ágil con mentalidad de crecimiento constante
+        </p>
+
+        <a
+          href="./archivos/CV-MARIA-LUISA-VALDIVIEZO-PINGO.docx"
+          download="CV-MARIA-LUISA-VALDIVIEZO-PINGO.docx"
+          class="inline-block mt-2 bg-yellow-500 text-black font-semibold px-5 py-2 rounded-full hover:bg-yellow-400 transition"
+        >
+          Descargar CV
+        </a>
+      </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section
+      id="mi-experiencia"
+      class="px-6 py-20 max-w-6xl mx-auto text-white fade-in"
+    >
+      <div class="relative mb-12 flex flex-col justify-center items-center">
+        <h2 class="text-4xl md:text-5xl font-bold z-10 relative">
+          Mi Experiencia
+        </h2>
+        <span
+          class="absolute top-1/2 left-0 transform -translate-y-1/2 text-7xl md:text-9xl font-extrabold text-gray-700 opacity-5 select-none"
+          >Experiencia</span
+        >
+        <p class="text-gray-400 mt-4 max-w-3xl text-center">
+          Experiencia aplicando tecnología para resolver problemas concretos,
+          optimizar procesos y generar valor visible desde el primer sprint.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Resume Item -->
+        <div class="bg-gray-900 p-6 rounded-xl shadow-md">
+          <p class="text-yellow-400 font-semibold text-sm">07/2024 – 06/2025</p>
+          <h3 class="text-xl font-bold mt-2 mb-1">
+            Scrum Master y Gestor de Proyectos
+          </h3>
+          <p class="text-sm text-gray-400 mb-2">
+            CHIRASOFT – DESARROLLO Y CONSULTORÍA
+          </p>
+          <p class="text-gray-300 text-sm">
+            Coordiné equipos Scrum en tres proyectos clave (sistema clínico,
+            eCommerce y sitio institucional), gestionando requerimientos,
+            sprints y ceremonias ágiles con herramientas como Jira, Figma y
+            Miro. Participé activamente en el desarrollo con tecnologías como
+            Astro, Angular y Tailwind CSS, así como en pruebas, QA e
+            implementación. Acompañé la transformación digital del Centro
+            Nefrológico del Norte desde la planificación hasta la entrega,
+            promoviendo innovación. Además, diseñé dashboards e informes de
+            seguimiento (OKRs), mejorando la predictibilidad del equipo en un
+            30 %, y colaboré en el análisis de métricas para fomentar la mejora
+            continua.
+          </p>
+        </div>
+        <!-- Resume Item -->
+        <div class="bg-gray-900 p-6 rounded-xl shadow-md">
+          <p class="text-yellow-400 font-semibold text-sm">04/204 – 07/2024</p>
+          <h3 class="text-xl font-bold mt-2 mb-1">
+            Analista Desarrollador Junior
+          </h3>
+          <p class="text-sm text-gray-400 mb-2">
+            CHIRASOFT – DESARROLLO Y CONSULTORÍA
+          </p>
+          <p class="text-gray-300 text-sm">
+            Desarrollo y mantenimiento de software en AS400 para IZIPAY,
+            incluyendo automatización de tareas, generación de reportes
+            personalizados, análisis de datos y resolución de incidencias
+            técnicas para optimizar procesos y flujos de trabajo.
+          </p>
+        </div>
+
+        <!-- Resume Item -->
+        <div class="bg-gray-900 p-6 rounded-xl shadow-md">
+          <p class="text-yellow-400 font-semibold text-sm">05/2023 – 12/2023</p>
+          <h3 class="text-xl font-bold mt-2 mb-1">
+            Prácticas Preprofesionales
+          </h3>
+          <p class="text-sm text-gray-400 mb-2">
+            INSTITUTO DE INFORMÁTICA – UNP
+          </p>
+          <p class="text-gray-300 text-sm">
+            Automatización de tareas administrativas mediante macros en Excel,
+            optimizando tiempos y reduciendo errores, junto con el mantenimiento
+            y mejora del sitio web institucional con WordPress, Bootstrap,
+            JavaScript, HTML y CSS, logrando una mejora del 60 % en eficiencia y
+            presentación.
+          </p>
+        </div>
+        <!-- Resume Item -->
+        <div class="bg-gray-900 p-6 rounded-xl shadow-md">
+          <p class="text-yellow-400 font-semibold text-sm">10/2019 – 02/2020</p>
+          <h3 class="text-xl font-bold mt-2 mb-1">
+            Asistente de Marketing Digital
+          </h3>
+          <p class="text-sm text-gray-400 mb-2">
+            ADNPACK CONSULTORÍA Y TECNOLOGÍAS
+          </p>
+          <p class="text-gray-300 text-sm">
+            Responsable de la gestión de contenido digital en redes sociales y
+            análisis de métricas de campañas y apoyo en la planificación de
+            estrategias de visibilidad y posicionamiento en línea.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT + SKILLS SECTION -->
+    <section
+      id="habilidades"
+      class="px-6 py-20 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start fade-in"
+    >
+      <!-- Skills -->
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Hard Skills</h2>
+        <p class="text-sm text-gray-400 mb-8">
+          Cuento con un conjunto sólido de habilidades técnicas adquiridas y
+          aplicadas en proyectos reales, que combinan gestión ágil,
+          visualización de datos, automatización, desarrollo web y herramientas
+          de innovación.
+        </p>
+        <div class="space-y-6">
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Metodologías ágiles (Scrum, Kanban)</span><span>90%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[90%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Power BI / Visualización de datos</span><span>85%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[85%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Excel avanzado y macros</span><span>70%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[70%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Jira, Trello, Miro, Notion</span><span>85%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[85%] rounded-full"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Canva / Figma / diseño visual</span><span>85%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[85%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Análisis de datos e insights</span><span>75%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[75%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Desarrollo web (HTML, CSS, Tailwind, React, Angular)</span
+              ><span>80%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[80%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Desarrollo Back (Java, Spring Boot, AS400, RPG, RPGLE)</span
+              ><span>50%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[50%] rounded-full"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Skills -->
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Soft Skills</h2>
+        <p class="text-sm text-gray-400 mb-8">
+          Mi experiencia liderando equipos Scrum, gestionando proyectos y
+          participando en iniciativas de mejora me ha permitido desarrollar
+          habilidades blandas clave para ambientes colaborativos, adaptativos e
+          innovadores.
+        </p>
+        <div class="space-y-6">
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Comunicación efectiva</span><span>90%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[90%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Pensamiento analítico</span><span>985%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[85%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Liderazgo colaborativo</span><span>85%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[85%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Creatividad y resolución de problemas</span><span>80%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[80%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Proactividad</span><span>90%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[90%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Adaptabilidad al cambio</span><span>80%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[80%] rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm">
+              <span>Escucha activa</span><span>85%</span>
+            </div>
+            <div class="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+              <div class="h-full bg-yellow-400 w-[85%] rounded-full"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center py-8 text-gray-400 text-sm">
+      &copy; 2025 Creado por Luisa Valdiviezo.
+    </footer>
+  </div>
+</Layout>

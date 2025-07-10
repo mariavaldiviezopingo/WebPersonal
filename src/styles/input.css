@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .clip-path-logo {
+    clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+  }
+  .clip-path-logo2 {
+    clip-path: polygon(50% 0%, 100% 30%, 100% 100%, 0 100%, 0 30%);
+  }
+  .clip-path-logo3 {
+    clip-path: polygon(70% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
+  }
+  .clip-path-logo4 {
+    clip-path: circle();
+  }
+  .clip-path-logo5 {
+    clip-path: polygon(100% 0%, 100% 80%, 50% 100%, 0 80%, 0 0%);
+  }
+  .clip-path-logo7 {
+    clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0 90%, 0 0%);
+  }
+
+  .clip-path-logo6 {
+    clip-path: polygon(70% 0%, 100% 100%, 0% 100%, 0 100%, 0 0%);
+}
+.clip-path-logo6 {
+    clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);  } 
+
+
+}
+
+@layer components {
+  .accordion-header {
+    @apply py-4 px-6  cursor-pointer;
+  }
+
+  .accordion-header2 {
+    @apply py-4 px-6  cursor-pointer;
+  }
+
+  .accordion-header3 {
+    @apply py-4 px-6  cursor-pointer;
+  }
+
+  .accordion-header.active svg {
+    @apply transition ease-in-out duration-300;
+    transform: rotateX(180deg);
+  }
+
+  .accordion-header2.active i {
+    @apply transition ease-in-out duration-300;
+    transform: rotateX(180deg);
+  }
+
+  .accordion-header3.active i {
+    @apply transition ease-in-out duration-300;
+    transform: rotateX(180deg);
+  }
+
+  .accordion-body {
+    @apply max-h-0 overflow-hidden transition-all duration-200;
+  }
+
+  .accordion-space {
+    @apply mb-4;
+  }
+}

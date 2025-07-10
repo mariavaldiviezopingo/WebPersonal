@@ -1,0 +1,22 @@
+---
+import BannerContactanos from "@/components/Contactanos/BannerContactanos.astro";
+import Layout from "../layouts/Layout.astro";
+import "../styles/input.css";
+import "../styles/output.css";
+import ContactanosInfo from "@/components/Contactanos/ContactanosInfo.astro";
+import FormularioContactanos from "@/components/Contactanos/FormularioContactanos.astro";
+import ContactanosMaps from "@/components/Contactanos/ContactanosMaps.astro";
+import ContactanosRedesSociales from "@/components/Contactanos/ContactanosRedesSociales.astro";
+;
+---
+
+<Layout title="Contacto">
+    <main class="bg-gradient-to-r from-red-600 to-customAzul1 bg-no-repeat">
+        <BannerContactanos /> 
+        <ContactanosInfo /> 
+        <FormularioContactanos /> 
+        <ContactanosMaps /> 
+        <ContactanosRedesSociales /> 
+    </main>    
+     
+</Layout>
